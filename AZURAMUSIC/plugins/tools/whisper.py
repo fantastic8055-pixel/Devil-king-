@@ -61,7 +61,7 @@ async def _whisper(_, inline_query):
                         f"Maximum allowed limit for a whisper is **200 characters**.\n\n"
                         f"Please shorten your text and try again!"
                     ),
-                    thumb_url="https://i.ibb.co/bRFNr2Qy/g-Ps-ZKm-Ma.jpg",
+                    thumb_url="https://iili.io/nS6IydJ.jpg",
                     reply_markup=switch_btn
                 )
             ]
@@ -101,14 +101,14 @@ async def _whisper(_, inline_query):
                     title="💒 Whisper",
                     description=f"Send a Whisper to {user.first_name}!",
                     input_message_content=InputTextMessageContent(f"💒 You are sending a whisper to {user.first_name}.\n\nType your message/sentence."),
-                    thumb_url="https://i.ibb.co/bRFNr2Qy/g-Ps-ZKm-Ma.jpg",
+                    thumb_url="https://t.me/+VokZMNAKgNU5NTgx",
                     reply_markup=whisper_btn
                 ),
                 InlineQueryResultArticle(
                     title="🔩 One-Time Whisper",
                     description=f"Send a one-time whisper to {user.first_name}!",
                     input_message_content=InputTextMessageContent(f"🔩 You are sending a one-time whisper to {user.first_name}.\n\nType your message/sentence."),
-                    thumb_url="https://i.ibb.co/bRFNr2Qy/g-Ps-ZKm-Ma.jpg",
+                    thumb_url="https://t.me/+VokZMNAKgNU5NTgx",
                     reply_markup=one_time_whisper_btn
                 )
             ]
@@ -176,7 +176,7 @@ async def in_help():
             title="💒 Whisper",
             description=f"@AzuraMusicBot [USERNAME | ID] [TEXT]",
             input_message_content=InputTextMessageContent(f"**📍Usage:**\n\n@AzuraMusicBot (Target Username or ID) (Your Message).\n\n**Example:**\n@AzuraMusicBot @username I Wanna Phuck You"),
-            thumb_url="https://i.ibb.co/bRFNr2Qy/g-Ps-ZKm-Ma.jpg",
+            thumb_url="https://iili.io/nS6IydJ.jpg",
             reply_markup=switch_btn
         )
     ]
@@ -201,7 +201,7 @@ async def whisper_guide_command(_, message: Message):
         f"A secret whisper allows you to send private messages in groups that only the intended user can open!\n\n"
         f"<b>📜 Syntax & Examples:</b>\n\n"
         f"<b>1️⃣ Using Username:</b>\n"
-        f"<code>@{BOT_USERNAME} @seximadara I want to tell you a secret!</code>\n\n"
+        f"<code>@{BOT_USERNAME} @vinnu_exe I want to tell you a secret!</code>\n\n"
         f"<b>2️⃣ Using User ID:</b>\n"
         f"<code>@{BOT_USERNAME} 7450836393 Meet me in the hidden leaf village tonight!</code>\n\n"
         f"💡 <i>Tip: Click the button below to start writing your whisper instantly!</i></blockquote>"

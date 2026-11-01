@@ -63,7 +63,7 @@ async def init():
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("AZURAMUSIC").info("𝗦𝗧𝗢𝗣 𝗔𝗟𝗜𝗦𝗔 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
+    LOGGER("AZURAMUSIC").info("𝗦𝗧𝗢𝗣 𝗩𝗜𝗡𝗡𝗨 𝗠𝗨𝗦𝗜𝗖🎻 𝗕𝗢𝗧..")
 
 
 if __name__ == "__main__":

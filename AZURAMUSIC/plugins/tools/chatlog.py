@@ -20,11 +20,11 @@ from config import LOGGER_ID as LOG_GROUP_ID
 from AZURAMUSIC import app
 
 photo = [
-    "https://i.supaimg.com/14ac9144-a5d0-49c4-9fc7-8c73f527216c/7bc9f0b7-9e84-470f-858f-b2f9f1ee88ba.png",
-    "https://i.supaimg.com/14ac9144-a5d0-49c4-9fc7-8c73f527216c/7bc9f0b7-9e84-470f-858f-b2f9f1ee88ba.png",
-    "https://i.supaimg.com/14ac9144-a5d0-49c4-9fc7-8c73f527216c/7bc9f0b7-9e84-470f-858f-b2f9f1ee88ba.png",
-    "https://i.supaimg.com/14ac9144-a5d0-49c4-9fc7-8c73f527216c/7bc9f0b7-9e84-470f-858f-b2f9f1ee88ba.png",
-    "https://i.supaimg.com/14ac9144-a5d0-49c4-9fc7-8c73f527216c/7bc9f0b7-9e84-470f-858f-b2f9f1ee88ba.png",
+    "https://iili.io/nS6IydJ.jpg",
+    "https://iili.io/nS6IydJ.jpg",
+    "https://iili.io/nS6IydJ.jpg",
+    "https://iili.io/nS6IydJ.jpg",
+    "https://iili.io/nS6IydJ.jpg",
 ]
 
 

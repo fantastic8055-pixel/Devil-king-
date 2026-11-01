@@ -10,7 +10,7 @@ load_dotenv()
 # Required credentials
 API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
-BOT_TOKEN = getenv("BOT_TOKEN" , "9085209537:AAENghtcTyPdrGX4EKld4-ad9PPWj6gi_k0" )
+BOT_TOKEN = getenv("BOT_TOKEN" , "9085209537:AAHdEp_qSsiLQxxLe3TjsUYXsiaMhkp2S8o" )
 
 # Bot and owner info
 OWNER_USERNAME = getenv("OWNER_USERNAME", "Nyx_Zam")

